@@ -1,0 +1,32 @@
+{
+  "name": "student-in",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server-json": "json-server --watch student.json --port 8000"
+  },
+  "dependencies": {
+    "@next/font": "^13.4.10",
+    "@npmcli/fs": "^3.1.0",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "json-server": "^0.17.3",
+    "next": "13.3.0",
+    "postcss": "8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.3",
+    "tailwindcss": "3.3.1",
+    "vercel": "^31.0.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "mongodb": "^5.6.0",
+    "mongodb-core": "^3.2.7"
+  }
+}
